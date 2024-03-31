@@ -1,0 +1,141 @@
+
+/* This is the style of the image in left */
+
+body {
+	font-family: Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: whitesmoke;
+}
+
+.page {
+    display: flex;
+}
+
+.section-1 {
+    background-image:url(halie-west-25xggax4bSA-unsplash.jpg);
+    min-width: 380px;
+    position: relative;
+    width: 35vw;
+    display: flex;
+    overflow: hidden;
+    height: 100vh;
+    background-size: cover;
+}
+
+
+
+.logo {
+    margin-top: 30vh;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    background-color: rgba(47, 42, 42, 0.551)
+}
+
+.logo img {
+    min-width: 100px;
+    max-width: 100px;
+    overflow: hidden;
+}
+
+.sidebar-text {
+    font: bold 6em "Norse-Bold";
+    color: white;
+}
+
+/*This is the style of the form in right */
+
+
+.text-above-form {
+    background-color: rgba(203, 203, 203, 0.342);
+    padding: 50px 120px 30px 30px;
+    font-weight: bold;
+    font-size: 1.15em;
+    min-width: 600px;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+label, input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-right: 100px;
+    font-family: cursive;
+}
+
+.row-1,
+.row-2,
+.row-3 {
+    display: flex;
+    margin-left: 60px;
+    margin-right: 120px;
+    margin-bottom: 10px;
+}
+
+/*This selects inputs and labels on left*/
+.inputs-1,
+.inputs-2,
+.inputs-3 {
+    margin-right: 60px;
+}
+
+#lets-do-this {
+    margin-left: 60px;
+    margin-right: 120px;
+    margin-bottom: 15px;
+}
+
+.form-container {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding-bottom: 30px;
+    min-width: 800px;
+}
+
+.login-section {
+    margin: 40px;
+}
+
+.submit-button {
+    padding: 16px 48px;
+    border-radius: 4px;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    color: white;
+    flex: 0 0 auto;
+    background-color: #596D48;
+    border-style: none;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #596d48e1;
+}
+
+#login {
+    font-weight: bold;
+    text-decoration: none;
+    color: #596D48;
+}
+
+input {
+    border-radius: 3px;
+    border: 1px solid #E5E7EB;
+    width: 90%;
+    height: 40%;
+}
+
+input[type="password"]:invalid {
+    border: 1px solid red;
+}
+
+input:focus {
+    outline-color: blue;
+    border: 1px solid blue !important;
+}
